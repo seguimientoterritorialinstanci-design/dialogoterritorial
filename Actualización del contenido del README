@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Instancia de Diálogo y Seguimiento Territorial Wayuu</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: linear-gradient(90deg, #8B0000, #C0392B);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+nav {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #C0392B;
+}
+
+section {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #8B0000;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Instancia de Diálogo y Seguimiento Territorial Wayuu</h1>
+    <p>Gobernanza, Territorio y Derecho Propio</p>
+</header>
+
+<nav>
+    <a href="#presentacion">Presentación</a>
+    <a href="#objetivo">Objetivo</a>
+    <a href="#funciones">Funciones</a>
+    <a href="#principios">Principios</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="presentacion">
+    <h2>Presentación</h2>
+    <p>
+    La Instancia de Diálogo y Seguimiento Territorial Wayuu es un mecanismo autónomo de articulación, 
+    participación y control social, conformado por Autoridades Tradicionales y/o Ancestrales del pueblo Wayuu 
+    en el área de influencia de proyectos de Fuentes No Convencionales de Energías Renovables (FNCER) y sus 
+    Líneas de Transmisión asociadas.
+    </p>
+</section>
+
+<section id="objetivo">
+    <h2>Objetivo</h2>
+    <p>
+    Garantizar el ejercicio del derecho propio mediante el seguimiento a los compromisos adquiridos en los proyectos 
+    energéticos, promoviendo la defensa del territorio, la protección de los derechos colectivos y la pervivencia cultural.
+    </p>
+</section>
+
+<section id="funciones">
+    <h2>Funciones</h2>
+    <ul>
+        <li>Seguimiento al Plan Operativo de los proyectos</li>
+        <li>Verificación del cumplimiento de acuerdos</li>
+        <li>Espacio de diálogo territorial</li>
+        <li>Ejercicio del control social comunitario</li>
+    </ul>
+</section>
+
+<section id="principios">
+    <h2>Principios</h2>
+    <ul>
+        <li>Autonomía</li>
+        <li>Gobierno propio</li>
+        <li>Participación efectiva</li>
+        <li>Transparencia</li>
+        <li>Respeto intercultural</li>
+    </ul>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>Información próximamente disponible.</p>
+</section>
+
+<footer>
+    <p>© 2026 Instancia de Diálogo y Seguimiento Territorial Wayuu</p>
+</footer>
+
+</body>
+</html>
