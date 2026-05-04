@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,20 +9,30 @@
 <style>
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     background-color: #f4f4f4;
 }
 
-header {
-    background: linear-gradient(90deg, #8B0000, #C0392B);
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c');
+    background-size: cover;
+    background-position: center;
     color: white;
-    padding: 30px;
     text-align: center;
+    padding: 100px 20px;
 }
 
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* NAV */
 nav {
-    background-color: #222;
-    padding: 10px;
+    background-color: #111;
+    padding: 15px;
     text-align: center;
 }
 
@@ -32,29 +43,38 @@ nav a {
     font-weight: bold;
 }
 
-nav a:hover {
-    color: #C0392B;
+/* SECCIONES */
+section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
 }
 
-section {
-    padding: 40px;
-    max-width: 1000px;
-    margin: auto;
+.card {
     background: white;
+    padding: 25px;
     margin-top: 20px;
     border-radius: 10px;
 }
 
-h1, h2 {
-    color: #8B0000;
+/* GRID IMÁGENES */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
 }
 
+.grid img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* FOOTER */
 footer {
-    background-color: #222;
+    background-color: #111;
     color: white;
     text-align: center;
     padding: 20px;
-    margin-top: 20px;
 }
 </style>
 
@@ -62,63 +82,69 @@ footer {
 
 <body>
 
-<header>
+<!-- HERO -->
+<div class="hero">
     <h1>Instancia de Diálogo y Seguimiento Territorial Wayuu</h1>
     <p>Gobernanza, Territorio y Derecho Propio</p>
-</header>
+</div>
 
+<!-- MENÚ -->
 <nav>
     <a href="#presentacion">Presentación</a>
     <a href="#objetivo">Objetivo</a>
+    <a href="#galeria">Territorio</a>
     <a href="#funciones">Funciones</a>
-    <a href="#principios">Principios</a>
-    <a href="#contacto">Contacto</a>
 </nav>
 
+<!-- PRESENTACIÓN -->
 <section id="presentacion">
-    <h2>Presentación</h2>
-    <p>
-    La Instancia de Diálogo y Seguimiento Territorial Wayuu es un mecanismo autónomo de articulación, 
-    participación y control social, conformado por Autoridades Tradicionales y/o Ancestrales del pueblo Wayuu 
-    en el área de influencia de proyectos de Fuentes No Convencionales de Energías Renovables (FNCER) y sus 
-    Líneas de Transmisión asociadas.
-    </p>
+    <div class="card">
+        <h2>Presentación</h2>
+        <p>
+        La Instancia de Diálogo y Seguimiento Territorial Wayuu es un mecanismo autónomo de articulación, 
+        participación y control social, conformado por Autoridades Tradicionales del pueblo Wayuu en el área 
+        de influencia de proyectos energéticos.
+        </p>
+    </div>
 </section>
 
+<!-- OBJETIVO -->
 <section id="objetivo">
-    <h2>Objetivo</h2>
-    <p>
-    Garantizar el ejercicio del derecho propio mediante el seguimiento a los compromisos adquiridos en los proyectos 
-    energéticos, promoviendo la defensa del territorio, la protección de los derechos colectivos y la pervivencia cultural.
-    </p>
+    <div class="card">
+        <h2>Objetivo</h2>
+        <p>
+        Garantizar el ejercicio del derecho propio mediante el seguimiento a los compromisos adquiridos, 
+        promoviendo la defensa del territorio y la protección de los derechos colectivos.
+        </p>
+    </div>
 </section>
 
+<!-- GALERÍA -->
+<section id="galeria">
+    <h2>Territorio y Cultura Wayuu</h2>
+
+    <div class="grid">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
+        <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+        <img src="https://images.unsplash.com/photo-1493244040629-496f6d136cc3">
+    </div>
+</section>
+
+<!-- FUNCIONES -->
 <section id="funciones">
-    <h2>Funciones</h2>
-    <ul>
-        <li>Seguimiento al Plan Operativo de los proyectos</li>
-        <li>Verificación del cumplimiento de acuerdos</li>
-        <li>Espacio de diálogo territorial</li>
-        <li>Ejercicio del control social comunitario</li>
-    </ul>
+    <div class="card">
+        <h2>Funciones</h2>
+        <ul>
+            <li>Seguimiento al Plan Operativo</li>
+            <li>Verificación de acuerdos</li>
+            <li>Espacio de diálogo territorial</li>
+            <li>Control social comunitario</li>
+        </ul>
+    </div>
 </section>
 
-<section id="principios">
-    <h2>Principios</h2>
-    <ul>
-        <li>Autonomía</li>
-        <li>Gobierno propio</li>
-        <li>Participación efectiva</li>
-        <li>Transparencia</li>
-        <li>Respeto intercultural</li>
-    </ul>
-</section>
-
-<section id="contacto">
-    <h2>Contacto</h2>
-    <p>Información próximamente disponible.</p>
-</section>
-
+<!-- FOOTER -->
 <footer>
     <p>© 2026 Instancia de Diálogo y Seguimiento Territorial Wayuu</p>
 </footer>
